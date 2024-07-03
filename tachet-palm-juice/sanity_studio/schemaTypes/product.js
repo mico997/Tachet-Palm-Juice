@@ -14,22 +14,20 @@ export const product = defineType({
         hostpot: 'true',
       },
     }),
-    defineField(
-      {
-        name: 'name',
-        title: 'Name',
-        type: 'string',
+    defineField({
+      name: 'name',
+      title: 'Name',
+      type: 'string',
+    }),
+    defineField({
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      option: {
+        source: 'name',
+        maxlenght: 90,
       },
-      {
-        name: 'slug',
-        title: 'Slug',
-        type: 'slug',
-        option: {
-          source: 'name',
-          maxlenght: 90,
-        },
-      },
-    ),
+    }),
     defineField({
       name: 'price',
       title: 'Price',
