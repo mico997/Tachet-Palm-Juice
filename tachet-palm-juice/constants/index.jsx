@@ -124,4 +124,32 @@ export const FeaturedList = [
     ),
     image: "https://via.placeholder.com/616x640",
   },
+  {
+    id: "5",
+    content: (
+      <div>
+        <div>
+          Refreshing
+          <h2>Bringing the Natural Goodness of Palm Juice to You</h2>
+        </div>
+        <div>
+          <div>
+            <p>
+              At Tachet Palm Juice, we have a rich history of innovating the art
+              of extracting palm juice. Our mission is to preserve the organic
+              goodness of palm juice and deliver it straight to customers all
+              around the world. With our commitment to quality and
+              sustainability, we ensure that every sip of our juice is a
+              refreshing and healthy experience.
+            </p>
+          </div>
+          <div>
+            <button>Learn More</button>
+            <button>Sign Up</button>
+          </div>
+        </div>
+      </div>
+    ),
+    image: "https://via.placeholder.com/616x640",
+  },
 ];
